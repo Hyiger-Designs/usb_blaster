@@ -1,0 +1,404 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Interface_USB:FT2232H U?
+U 1 1 5DAA84FA
+P 5550 3550
+F 0 "U?" H 4600 5700 50  0000 C CNN
+F 1 "FT2232H" H 5500 3550 50  0000 C CNN
+F 2 "" H 5550 3550 50  0001 C CNN
+F 3 "http://www.ftdichip.com/Products/ICs/FT2232H.html" H 5550 3550 50  0001 C CNN
+	1    5550 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6750 1650 7250 1650
+Wire Wire Line
+	6750 1750 7250 1750
+Wire Wire Line
+	6750 1850 7250 1850
+Wire Wire Line
+	6750 1950 7250 1950
+$Comp
+L Device:R_Small R?
+U 1 1 5DAAA111
+P 7350 1650
+F 0 "R?" V 7300 1500 50  0000 C CNN
+F 1 "75R" V 7350 1650 32  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7350 1650 50  0001 C CNN
+F 3 "~" H 7350 1650 50  0001 C CNN
+	1    7350 1650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5DAAAFF1
+P 7350 1750
+F 0 "R?" V 7300 1600 50  0000 C CNN
+F 1 "75R" V 7350 1750 32  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7350 1750 50  0001 C CNN
+F 3 "~" H 7350 1750 50  0001 C CNN
+	1    7350 1750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5DAAB36C
+P 7350 1850
+F 0 "R?" V 7300 1700 50  0000 C CNN
+F 1 "75R" V 7350 1850 32  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7350 1850 50  0001 C CNN
+F 3 "~" H 7350 1850 50  0001 C CNN
+	1    7350 1850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5DAAB62A
+P 7350 1950
+F 0 "R?" V 7300 1800 50  0000 C CNN
+F 1 "75R" V 7350 1950 32  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7350 1950 50  0001 C CNN
+F 3 "~" H 7350 1950 50  0001 C CNN
+	1    7350 1950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7450 1650 7950 1650
+Wire Wire Line
+	7450 1750 7950 1750
+Wire Wire Line
+	7450 1850 7950 1850
+Wire Wire Line
+	7450 1950 7950 1950
+Text Label 7650 1650 0    50   ~ 0
+TCK
+Text Label 7650 1750 0    50   ~ 0
+TDI
+Text Label 7650 1850 0    50   ~ 0
+TDO
+Text Label 7650 1950 0    50   ~ 0
+TMS
+Wire Wire Line
+	5150 5750 5250 5750
+Connection ~ 5250 5750
+Wire Wire Line
+	5250 5750 5350 5750
+Connection ~ 5350 5750
+Wire Wire Line
+	5350 5750 5450 5750
+Connection ~ 5450 5750
+Wire Wire Line
+	5450 5750 5550 5750
+Connection ~ 5550 5750
+Wire Wire Line
+	5550 5750 5650 5750
+Connection ~ 5650 5750
+Wire Wire Line
+	5650 5750 5750 5750
+Connection ~ 5750 5750
+Wire Wire Line
+	5750 5750 5850 5750
+$Comp
+L Memory_EEPROM:93CxxA U?
+U 1 1 5DAACB36
+P 3250 4450
+F 0 "U?" H 3050 4700 50  0000 C CNN
+F 1 "93CxxA" H 2950 4200 50  0000 C CNN
+F 2 "" H 3250 4450 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001749K.pdf" H 3250 4450 50  0001 C CNN
+	1    3250 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 4350 2850 3800
+Wire Wire Line
+	2850 3800 4100 3800
+Wire Wire Line
+	4350 3800 4350 4250
+$Comp
+L Device:R_Small R?
+U 1 1 5DAB088A
+P 3900 4550
+F 0 "R?" V 3850 4400 50  0000 C CNN
+F 1 "2K" V 3900 4550 32  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3900 4550 50  0001 C CNN
+F 3 "~" H 3900 4550 50  0001 C CNN
+	1    3900 4550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3650 4550 3750 4550
+Wire Wire Line
+	4000 4550 4100 4550
+Wire Wire Line
+	4100 4550 4100 4450
+Connection ~ 4100 4450
+Wire Wire Line
+	4100 4450 4350 4450
+$Comp
+L Device:R_Small R?
+U 1 1 5DAB2E05
+P 3900 3600
+F 0 "R?" H 3800 3600 50  0000 C CNN
+F 1 "10K" V 3900 3600 32  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3900 3600 50  0001 C CNN
+F 3 "~" H 3900 3600 50  0001 C CNN
+	1    3900 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3650 4350 3900 4350
+Wire Wire Line
+	5750 1350 5850 1350
+Connection ~ 5850 1350
+Wire Wire Line
+	5850 1350 5950 1350
+Connection ~ 5950 1350
+Wire Wire Line
+	5950 1350 6050 1350
+Wire Wire Line
+	5350 1350 5450 1350
+Connection ~ 5450 1350
+Wire Wire Line
+	5450 1350 5550 1350
+Wire Wire Line
+	6750 3450 7250 3450
+Wire Wire Line
+	6750 3550 7250 3550
+Wire Wire Line
+	6750 3650 7250 3650
+Wire Wire Line
+	6750 3750 7250 3750
+Wire Wire Line
+	6750 3850 7250 3850
+Wire Wire Line
+	6750 3950 7250 3950
+Wire Wire Line
+	6750 4050 7250 4050
+Wire Wire Line
+	6750 4150 7250 4150
+Wire Wire Line
+	4350 5350 4350 5750
+Wire Wire Line
+	4350 5750 4950 5750
+Wire Wire Line
+	4950 5750 5150 5750
+Connection ~ 4950 5750
+Connection ~ 5150 5750
+$Comp
+L Device:Crystal_Small Y?
+U 1 1 5DABC890
+P 3900 5150
+F 0 "Y?" H 3900 5375 50  0000 C CNN
+F 1 "12Mhz" H 3900 5284 50  0000 C CNN
+F 2 "" H 3900 5150 50  0001 C CNN
+F 3 "~" H 3900 5150 50  0001 C CNN
+	1    3900 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5DABF586
+P 3800 5400
+F 0 "C?" H 3550 5450 50  0000 L CNN
+F 1 "27pF" H 3550 5350 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3800 5400 50  0001 C CNN
+F 3 "~" H 3800 5400 50  0001 C CNN
+	1    3800 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5DAC027C
+P 4000 5400
+F 0 "C?" H 4092 5446 50  0000 L CNN
+F 1 "27pF" H 4092 5355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4000 5400 50  0001 C CNN
+F 3 "~" H 4000 5400 50  0001 C CNN
+	1    4000 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 5300 3800 5150
+Wire Wire Line
+	4000 5300 4000 5150
+Wire Wire Line
+	3800 5500 3800 5700
+Wire Wire Line
+	4000 5500 4000 5700
+Wire Wire Line
+	3800 5150 3800 4750
+Wire Wire Line
+	3800 4750 4350 4750
+Connection ~ 3800 5150
+Wire Wire Line
+	4000 5150 4350 5150
+Connection ~ 4000 5150
+$Comp
+L power:GND #PWR?
+U 1 1 5DAC7BC4
+P 3800 5700
+F 0 "#PWR?" H 3800 5450 50  0001 C CNN
+F 1 "GND" H 3805 5527 50  0000 C CNN
+F 2 "" H 3800 5700 50  0001 C CNN
+F 3 "" H 3800 5700 50  0001 C CNN
+	1    3800 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DAC96C8
+P 4000 5700
+F 0 "#PWR?" H 4000 5450 50  0001 C CNN
+F 1 "GND" H 4005 5527 50  0000 C CNN
+F 2 "" H 4000 5700 50  0001 C CNN
+F 3 "" H 4000 5700 50  0001 C CNN
+	1    4000 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DACA868
+P 5350 5750
+F 0 "#PWR?" H 5350 5500 50  0001 C CNN
+F 1 "GND" H 5355 5577 50  0000 C CNN
+F 2 "" H 5350 5750 50  0001 C CNN
+F 3 "" H 5350 5750 50  0001 C CNN
+	1    5350 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DACBAD4
+P 3250 4750
+F 0 "#PWR?" H 3250 4500 50  0001 C CNN
+F 1 "GND" H 3255 4577 50  0000 C CNN
+F 2 "" H 3250 4750 50  0001 C CNN
+F 3 "" H 3250 4750 50  0001 C CNN
+	1    3250 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 5DACCAC7
+P 3250 4150
+F 0 "#PWR?" H 3250 4000 50  0001 C CNN
+F 1 "VCC" H 3267 4323 50  0000 C CNN
+F 2 "" H 3250 4150 50  0001 C CNN
+F 3 "" H 3250 4150 50  0001 C CNN
+	1    3250 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 5DACDBF7
+P 3900 3400
+F 0 "#PWR?" H 3900 3250 50  0001 C CNN
+F 1 "VCC" H 3917 3573 50  0000 C CNN
+F 2 "" H 3900 3400 50  0001 C CNN
+F 3 "" H 3900 3400 50  0001 C CNN
+	1    3900 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:USB_B_Micro J?
+U 1 1 5DACECAB
+P 2700 2700
+F 0 "J?" H 2757 3167 50  0000 C CNN
+F 1 "USB_B_Micro" H 2757 3076 50  0000 C CNN
+F 2 "" H 2850 2650 50  0001 C CNN
+F 3 "~" H 2850 2650 50  0001 C CNN
+	1    2700 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 2700 4350 2700
+Wire Wire Line
+	4350 2700 4350 2750
+Wire Wire Line
+	3000 2800 4250 2800
+Wire Wire Line
+	4250 2800 4250 2650
+Wire Wire Line
+	4250 2650 4350 2650
+Wire Wire Line
+	2600 3100 2700 3100
+Wire Wire Line
+	2700 3100 3000 3100
+Wire Wire Line
+	3000 3100 3000 2900
+Connection ~ 2700 3100
+$Comp
+L power:GND #PWR?
+U 1 1 5DAD6319
+P 2700 3100
+F 0 "#PWR?" H 2700 2850 50  0001 C CNN
+F 1 "GND" H 2705 2927 50  0000 C CNN
+F 2 "" H 2700 3100 50  0001 C CNN
+F 3 "" H 2700 3100 50  0001 C CNN
+	1    2700 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5DADFAF4
+P 4100 3600
+F 0 "R?" H 4000 3600 50  0000 C CNN
+F 1 "10K" V 4100 3600 32  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4100 3600 50  0001 C CNN
+F 3 "~" H 4100 3600 50  0001 C CNN
+	1    4100 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5DAE14C8
+P 3750 3600
+F 0 "R?" H 3650 3600 50  0000 C CNN
+F 1 "10K" V 3750 3600 32  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3750 3600 50  0001 C CNN
+F 3 "~" H 3750 3600 50  0001 C CNN
+	1    3750 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3750 3700 3750 4550
+Connection ~ 3750 4550
+Wire Wire Line
+	3750 4550 3800 4550
+Wire Wire Line
+	3650 4450 4100 4450
+Wire Wire Line
+	3900 3700 3900 4350
+Connection ~ 3900 4350
+Wire Wire Line
+	3900 4350 4350 4350
+Wire Wire Line
+	4100 3700 4100 3800
+Connection ~ 4100 3800
+Wire Wire Line
+	4100 3800 4350 3800
+Wire Wire Line
+	3750 3500 3900 3500
+Connection ~ 3900 3500
+Wire Wire Line
+	3900 3500 4100 3500
+Wire Wire Line
+	3900 3500 3900 3400
+Text Notes 2450 1500 0    50   ~ 0
+AP7312-1833W6-7
+$EndSCHEMATC
